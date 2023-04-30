@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+  
+  }
+  
+  h2{
+    font-family: 'Algerian';
+    color:white;
+    font-size: 150%;
+  }
+
+  body  {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(aboutbg.jpg);
+    height: 250vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+  
+
+
+header {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   }
+   
+   nav{
+     height: 0.5vh;
+     width: 51vw;
+     min-width: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin: 30px;
+     
+     
+   }
+   
+   nav ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+   }
+   
+   nav li {
+     margin-right: 35px;
+   }
+   
+   nav a{
+     position: relative;
+     text-decoration: none;
+     font-family: 'courgette';
+     color: #a0a0a0;
+     font-size: 10x;
+     letter-spacing: 1.5px;
+     padding: 1 5px;
+   }
+   
+   nav a:after{
+     content: "";
+     position: absolute;
+     background-color: limegreen;
+     height: 2px;
+     width: 0;
+     left: 0;
+     bottom: -7px;
+     transition: 0.3s;
+   }
+   nav a:hover{
+     color: #fff
+   }
+   nav a:hover:after{
+     width: 100%;
+   
+   }
+
+   /*About*/
+
+   .about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+   }
+
+   .about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   }
+   
+   .about .about_main .image img{
+    width: 270px;
+    left: 150px;
+    position: relative;
+    top: 20vh;
+   }
+
+  .about_text h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: my boli;
+    position:static;
+    top: 15%;
+    padding: 0%;
+    left: 2%;
+    font-size: 45px;
+   }
+   
+
+
+.about_text h1{
+  font-size: 35px;
+  position:absolute;
+  bottom: 370px;
+  color: #fff;
+  right: 40%;
+  font-family: 'Bungee Inline';
+
+}
+  .about .about_main .about_text{
+    font-size: 29px;
+    margin: 1 0 12px 0;
+
+  }
+  .about .about_main .about_text p{
+    width: 670px ;
+    text-align: start;
+    margin-right: 30px;
+    line-height: 28px;
+    color: #fff;
+    padding-left: 30%;
+    height: 10px;
+    font-family: 'Bahnschrift';
+  }
+
+  .about .image img{
+    width: 150px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid orange;
+  }
+  .about .image img{
+    width: 40px;
+    height: 45vh;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .about_main{
+    padding: 20px 0 30px 0;
+    padding-right: 30%;
+  }
+
+  .Ingredients{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -20%;
+    margin: 20%;
+    padding:0%;
+    color: rgb(198, 207, 207);
+    font-size: 80%;
+    line-height: 40px;
+  }
+
+  .directions{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    margin: 54%;
+    padding: 0%;
+    right: -54%;
+    color: rgb(198, 207, 207);
+    font-size: 80%;
+    line-height: 40px;
+  }
+  .Ingredients h3, .directions h3 {
+    position: relative;
+    width: 50;
+    height: 3.1rem;
+    line-height: 1.6 rem;
+    margin: 50px 0 0 0;
+    padding: 0;
+    font-family: "Lilita One", cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgba(204, 114, 11, 1.00);
+    color:rgb(196, 14, 14);
+    border-radius:.8rem;
+
+  }
+
+
+
+
+
+
+

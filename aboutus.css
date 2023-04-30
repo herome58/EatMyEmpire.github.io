@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+  
+  }
+  
+  h2{
+    font-family: 'Algerian';
+    color:white;
+    font-size: 150%;
+  }
+
+  body  {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(aboutbg.jpg);
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+  
+
+
+header {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: transitionIn 2.75s;
+   }
+   
+   nav{
+     height: 0.5vh;
+     width: 51vw;
+     min-width: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin: 30px;
+     
+     
+   }
+   
+   nav ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+   }
+   
+   nav li {
+     margin-right: 35px;
+   }
+   
+   nav a{
+     position: relative;
+     text-decoration: none;
+     font-family: 'courgette';
+     color: #a0a0a0;
+     font-size: 10x;
+     letter-spacing: 1.5px;
+     padding: 1 5px;
+   }
+   
+   nav a:after{
+     content: "";
+     position: absolute;
+     background-color: limegreen;
+     height: 2px;
+     width: 0;
+     left: 0;
+     bottom: -7px;
+     animation: transitionIn 0.3s;
+   }
+   nav a:hover{
+     color: #fff
+   }
+   nav a:hover:after{
+     width: 100%;
+   
+   }
+
+   /*About*/
+
+   .about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+   }
+
+   .about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   
+   .about .about_main .image img{
+    width: 450px;
+    left: 45px;
+    position: relative;
+    top: 100px;
+   }
+
+  .about_text h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: my boli;
+    position:static;
+    top: 15%;
+    padding: 0%;
+    left: 2%;
+    font-size: 45px;
+   }
+   
+
+
+.about_text h1{
+  font-size: 35px;
+  position:absolute;
+  bottom: 407px;
+  color: #fff;
+  right: 44%;
+  font-family: 'Bungee Inline';
+
+}
+
+.about_text h3{
+  color: #fff;
+  position:absolute;
+  width: 50%;
+  top: 240px;
+  font-family: 'Bahnschrift';
+}
+
+  .about .about_main .about_text{
+    font-size: 29px;
+    margin: 1 0 10px 0;
+  }
+  .about .about_main .about_text p{
+    width: 670px ;
+    text-align: start;
+    margin-right: 10px;
+    line-height: 28px;
+    color: #fff;
+    height: 0px;
+    font-family: 'Bahnschrift';
+  }
+
+
+.about .about_main .image2 img{
+  width: 450px;
+    left: 760px;
+    position: absolute;
+    top: 600px;
+    bottom: auto;
+}
+
+.about .about_main .about_2 p{
+  color: #fff;
+  position:absolute;
+  width: 51%;
+  top: 620px;
+  font-family: 'Bahnschrift';
+  left: 70px;
+  text-align: start;
+  line-height: 30px;
+}
+
+.about .about_2 h3{
+  color: #fff;
+  position:absolute;
+  width: 500px;
+  top: 560px;
+  font-family: 'Bahnschrift';
+  left: 70px;
+}
+.about .about_main .about_2{
+  font-size: 29px;
+  margin: 0 0 15px 0;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

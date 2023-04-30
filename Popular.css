@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+  }
+
+  body  {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(mealsbg.jpg);
+    height: 210vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+  
+  
+  h2{
+    font-family: 'Algerian';
+    color:white;
+    font-size: 150%;
+  }
+  
+  
+  /*Navigator*/
+
+  header {
+   background-color: rgba(0, 0, 0, 0.6);
+   color: #fff;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   animation: transitionIn 2.75s;
+   
+  }
+  
+  nav{
+    height: 0.5vh;
+    width: 51vw;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+    animation: transitionIn 2.75s;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 35px;
+  }
+  
+  nav a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'courgette';
+    color: #a0a0a0;
+    font-size: 10x;
+    letter-spacing: 1.5px;
+    padding: 1 5px;
+  }
+  
+  nav a:after{
+    content: "";
+    position: absolute;
+    background-color: limegreen;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    transition: 0.3s;
+  }
+  nav a:hover{
+    color: #fff
+  }
+  nav a:hover:after{
+    width: 100%;
+  
+  }
+
+
+  .about_text h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: my boli;
+    position:absolute;
+    bottom: 23%;
+    padding: 0%;
+    right: 80%;
+    font-size: 45px;
+    animation: transitionIn 7.75s;
+   }
+   
+
+
+.about_text h1{
+  font-size: 35px;
+  position:absolute;
+  bottom: 370px;
+  color: #fff4f4;
+  right: 44%;
+  font-family: 'Bungee Inline';
+  animation: transitionIn 1.75s;
+}
+
+
+  .container{
+    margin: 150px 20px;
+    padding: 30px 20px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    animation: transitionIn 2.75s;
+    
+
+}
+
+/*.title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+*/
+
+.meals{
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.single-meals{
+    flex-basis: 20%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:black;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.single-meals img{
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+.single-meals img{
+    transform: scale(1);
+    transition: 0.3 ease-out;
+   }
+ 
+.single-meals:hover img{
+     transform:scale(1.2)
+   }
+
+.single-meals h4{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: centersss;
+    color: #fff;
+}
+
+
+.single-meals a{
+    display: inline-block;
+    background-color: red;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    border-radius: 7px;
+}
+
+.single-meals a:hover{
+    background-color: black;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
